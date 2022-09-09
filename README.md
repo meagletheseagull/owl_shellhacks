@@ -13,6 +13,7 @@ Can you, given the coordinates and direction of a camera, determine the rotation
 * Can you deal with a camera that is moving so it would track a point... like an owl.
 * Can you deal with a rotating camera?
 * Can you main tracking even if gps is intermittent?
+* A test harness UI where points can be dropped in the geographic area around the camera is highly encouraged.
 
 
 ### Ultra Bonus
