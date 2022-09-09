@@ -25,4 +25,8 @@ Given a bounding box in the camera's view, can you determine the coordinates of 
 * Target coordinates will be provided
 * Coordinates are limited to earth
 
+## Hints
+* Assume static GPS location / rotation of camera base first.
+  * Ahem... yes we have a GPS unit but it's very hard to get to work indoors, even in a window.
+
 
