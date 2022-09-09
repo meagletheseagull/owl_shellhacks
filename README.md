@@ -37,5 +37,6 @@ Given a bounding box in the camera's view, can you determine the coordinates of 
 * Maybe 3d plotting might help if you create a simulator for the camera and target? https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html
 * Common issues with GPS https://raspberrypi.stackexchange.com/questions/68816/how-can-i-set-up-my-g-mouse-usb-gps-for-use-with-raspbian
 * The Rpi4 is using libcamera right now. That's the new open source camera stack for Rpis. But if you really need to use something that is only compatible with raspicam, we can make that happen.
+* There is a large battery available if you wish to take the project outside for gps signal and/or testing.
 
 
