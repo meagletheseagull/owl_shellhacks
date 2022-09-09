@@ -24,9 +24,15 @@ Given a bounding box in the camera's view, can you determine the coordinates of 
   * Will be live (if our test harness is working right.)
 * Target coordinates will be provided
 * Coordinates are limited to earth
+* Only one pan/tilt camera available, write you code and then we will copy it over to the Pi4 with the cam. We could also enable ssh so everyone can "timeshare" on it.
 
 ## Hints
 * Assume static GPS location / rotation of camera base first.
   * Ahem... yes we have a GPS unit but it's very hard to get to work indoors, even in a window.
+* Simulation is fine if you would rather do that first.
+* If you want to visualize a target coordinate, something like this might be helpful https://towardsdatascience.com/simple-gps-data-visualization-using-python-and-open-street-maps-50f992e9b676
+* Maybe 3d plotting might help if you create a simulator for the camera and target? https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html
+* Common issues with GPS https://raspberrypi.stackexchange.com/questions/68816/how-can-i-set-up-my-g-mouse-usb-gps-for-use-with-raspbian
+* The Rpi4 is using libcamera right now. That's the new open source camera stack for Rpis. But if you really need to use something that is only compatible with raspicam, we can make that happen.
 
 
